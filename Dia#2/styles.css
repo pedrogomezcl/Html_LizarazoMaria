@@ -1,0 +1,17 @@
+h1{
+    color: aqua;
+}
+.imagen img{
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.info {
+    --w: 250px;
+    --h: 450px;
+    --gradient: linear-gradient(indigo, hotpink);
+
+    width: var(--w);
+    height: var(--h);
+    background: var(--gradient);
+}
