@@ -1,21 +1,93 @@
+body{
+    background-color:#ffffff;
+}
+
 .cont{
     margin: auto;
-    width: 900px;
-    height: 1000px;
-    border: 4px solid black;    
+    margin-top: 50px;
+    width: 850px;
+    height: 1010px;
+    border: 4px solid black;
+    background-color: black;
 }
+
 .imagen img{
     border-radius: 50%;
-    border: 2px solid black;
+    border: 3px solid white;
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+    transition: all 1000ms;
+}
+.imagen img:hover{
+    transform: scale(1.1);
 }
 
 .rect{
     width: 250px;
     height: 300px;
-    border: 2px solid black;
+    border: 5px solid white;
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+    background-color: #D3D3D3;
+    transition: all 1000ms;
 }
+.rect:hover{
+    transform: scale(1.1);
+}
+
 .dip{
     width: 250px;
     height: 320px;
-    border: 2px solid black;
+    border: 5px solid white;
+    position: relative;
+    left: 10px;
+    background-color: #D3D3D3;
+    transition: all 1000ms;
+}
+.dip:hover{
+    transform: scale(1.1);
+}
+
+.rect2{
+    width: 250px;
+    height: 450px;
+    border: 5px solid white;
+    position: relative;
+    left: 290px;
+    bottom: 960px;
+    background-color: #D3D3D3;
+    transition: all 1000ms;
+}
+.rect2:hover{
+    transform: scale(1.1);
+}
+
+.rect3{
+    width: 250px;
+    height: 450px;
+    border: 5px solid white;
+    position: relative;
+    left: 290px;
+    bottom: 930px;
+    background-color: #D3D3D3;
+    transition: all 1000ms;
+}
+.rect3:hover{
+    transform: scale(1.1);
+}
+
+.rect4{
+    width: 250px;
+    height: 930px;
+    border: 5px solid white;
+    position: relative;
+    left: 570px;
+    bottom: 1866px;
+    background-color: #D3D3D3;
+    transition: all 1000ms;
+}
+.rect4:hover{
+    transform: scale(1.1);
 }
