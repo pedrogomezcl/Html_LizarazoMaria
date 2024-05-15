@@ -1,38 +1,59 @@
-body{
+html{
     height: 100%;
+}
+
+body{
     background: rgb(0, 0, 0);
-    background: linear-gradient(white, black 100%);
+    background: linear-gradient(white, gray 100%);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+.cont{
+    width: 1400px;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    top: 500px;
+}
+
+.rect{
+    width: 110px;
+    height: 800px;
+    background-color: black;
+    position: relative;
+    left: 1290px;
+    bottom: 350px;
 }
 
 .imagen img{
     position: relative;
-    left: 500px;
-    bottom: 300px;
-    left:300px;
-    z-index: 2;
+    left: 300px;
+    top: 200px;
 }
 
-.rect{
-    margin: auto;
-    width: 1400px;
-    height: 800px;
-    border: 1px solid black;
-    background: white;
+.msjmtr h1, h2{
     position: relative;
-    bottom: -350px;
+    bottom: 530px;
+    left: 90px;
 }
 
-.rect2{
-    margin: auto;
-    width: 110px;
-    height: 799px;
-    border: 1px solid black;
-    background: black;
-    position: relative;
-    bottom: 956px;
-    left: 650px;
-}
 .msjmtr h1{
-    width: 716px;
-    height: 55px;
+    font-size: 40px;
+}
+
+.msjmtr h2{
+    font-size: 27px;
+}
+
+.rect2 .img1{
+    position: relative;
+    bottom: 800px;
+}
+
+.rect2 .logo{
+    position: relative;
+    bottom: 1250px;
+    left: 50px;
 }
