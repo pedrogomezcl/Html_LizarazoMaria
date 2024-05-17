@@ -19,11 +19,12 @@ body{
 
 .cont{
     width: 1920px;
-    height: 1080px;
+    height: 4030px;
     margin: auto;
     bottom: 10px;
     background-color: black;
     position: relative;
+    overflow: hidden;
 }
 
 .fond .fondo{
