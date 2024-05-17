@@ -1,22 +1,281 @@
+@font-face {
+    font-family: Ember;
+    src: url(Ember/AmazonEmber_Bd.ttf);
+}
+
+@font-face {
+    font-family: Ember2;
+    src: url(Ember/AmazonEmber_Lt.ttf);
+}
+
+html{
+    height: 100%;
+}
+
 body{
+    min-height: 100%;
     background-color: black;
+}
+
+.cont{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    position: relative;
 }
 
 .rect .fondo{
     width: 100%;
 }
+
 .rect .img{
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     position: relative;
-    bottom: 1640px;
-    left: 55px;
+    bottom: 1235px;
+    left: 53px;
 }
 
 .rect .logo{
     width: 556px;
     height: 313px;
     position: relative;
-    bottom: 860px;
-    left: 650px;
+    bottom: 800px;
+    left: 550px;
+}
+
+.rect .text{
+    font-size: 63px;
+    color: white;
+    font-family: Ember;
+    text-align: center;
+    position: relative;
+    bottom: 905px;
+    font-size: 55px;
+}
+
+.rect .text2{
+    font-size: 63px;
+    color: white;
+    font-family: Ember2;
+    text-align: center;
+    position: relative;
+    bottom: 947px;
+    font-size: 26px;
+}
+
+.rect2{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    bottom: 1580px;
+    left: 1560px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Ember2;
+}
+
+.rect2 .login{
+    position: relative;
+    top: 10px;
+}
+
+.rect3{
+    width: 358px;
+    height: 64px;
+    background-color: white;
+    position: relative;
+    bottom: 990px;
+    left: 710px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Ember2;
+}
+
+.rect3 .sign{
+    position: relative;
+    top: 12px;
+    font-size: 30px
+}
+
+.rect4 .img2{
+    width: 1600px;
+    height: 560px;
+    position: relative;
+    left: 70px;
+    bottom: 720px;
+}
+
+.rect5 .img3{
+    width: 1600px;
+    height: 560px;
+    position: relative;
+    left: 70px;
+    bottom: 680px;
+}
+
+.rect5 .text3{
+    font-size: 63px;
+    color: white;
+    font-family: Ember;
+    text-align: center;
+    position: relative;
+    bottom: 1260px;
+    font-size: 55px;
+}
+
+.rect5 .img4{
+    width: 160px;
+    height: 260px;
+    position: relative;
+    bottom: 1280px;
+    left: 400px;
+}
+
+.rect5 .img5{
+    width: 160px;
+    height: 260px;
+    position: relative;
+    bottom: 1280px;
+    left: 410px;
+}
+
+.rect5 .img6{
+    width: 160px;
+    height: 260px;
+    position: relative;
+    bottom: 1280px;
+    left: 420px;
+}
+
+.rect5 .img7{
+    width: 160px;
+    height: 260px;
+    position: relative;
+    bottom: 1280px;
+    left: 430px;
+}
+
+.rect5 .img8{
+    width: 160px;
+    height: 260px;
+    position: relative;
+    bottom: 1280px;
+    left: 440px;
+}
+
+.rect5 .text4{
+    font-size: 63px;
+    color: white;
+    font-family: Ember2;
+    text-align: center;
+    position: relative;
+    bottom: 1300px;
+    font-size: 40px;
+}
+
+.rect6 .img9{
+    width: 1600px;
+    height: 500px;
+    position: relative;
+    left: 70px;
+    bottom: 1260px;
+}
+
+.rect6 .text5{
+    font-size: 63px;
+    color: white;
+    font-family: Ember;
+    text-align: center;
+    position: relative;
+    bottom: 1780px;
+    font-size: 60px;
+}
+
+.rect6 .img10{
+    width: 169px;
+    height: 169px;
+    position: relative;
+    bottom: 1800px;
+    left: 790px;
+}
+
+.rect6 .text6{
+    font-size: 63px;
+    color: white;
+    font-family: Ember2;
+    text-align: center;
+    position: relative;
+    bottom: 1820px;
+    font-size: 40px;
+}
+
+.rect7 .text7{
+    font-size: 63px;
+    color: white;
+    font-family: Ember2;
+    text-align: center;
+    position: relative;
+    bottom: 1820px;
+    font-size: 125px;
+}
+
+.rect7 .text8{
+    font-size: 63px;
+    color: white;
+    font-family: Ember2;
+    text-align: center;
+    position: relative;
+    bottom: 1860px;
+    font-size: 45px;
+}
+
+.rect7 .img11{
+    width: 584px;
+    height: 534px;
+    position: relative;
+    bottom: 1880px;
+    left: 590px;
+}
+
+.rect7 .img12{
+    width: 256px;
+    height: 220px;
+    position: relative;
+    bottom: 2030px;
+    right: 250px;
+}
+
+.rect7 .img13{
+    width: 271px;
+    height: 238px;
+    position: relative;
+    bottom: 2030px;
+    left: 350px;
+}
+
+.rect8 .img14{
+    width: 430px;
+    height: 241px;
+    position: relative;
+    bottom: 1910px;
+    left: 730px;
+}
+
+.rect8 .img15{
+    width: 831px;
+    height: 25px;
+    position: relative;
+    bottom: 1960px;
+    left: 65px;
+}
+
+.rect8 .img16{
+    width: 92px;
+    height: 20px;
+    position: relative;
+    bottom: 2100px;
+    right: 510px;
 }
