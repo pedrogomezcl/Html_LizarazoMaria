@@ -18,31 +18,33 @@ body{
 }
 
 .cont{
-    width: 100%;
-    height: 100%;
+    width: 1920px;
+    height: 1080px;
     margin: auto;
+    bottom: 10px;
     background-color: black;
     position: relative;
 }
 
-.rect .fondo{
+.fond .fondo{
     width: 100%;
+    margin: auto;
 }
 
 .rect .img{
     width: 35px;
     height: 35px;
     position: relative;
-    bottom: 1235px;
-    left: 53px;
+    bottom: 1330px;
+    left: 59px;
 }
 
 .rect .logo{
     width: 556px;
-    height: 313px;
+    height: 310px;
     position: relative;
-    bottom: 800px;
-    left: 550px;
+    bottom: 857px;
+    left: 650px;
 }
 
 .rect .text{
@@ -51,7 +53,7 @@ body{
     font-family: Ember;
     text-align: center;
     position: relative;
-    bottom: 905px;
+    bottom: 950px;
     font-size: 55px;
 }
 
@@ -61,7 +63,7 @@ body{
     font-family: Ember2;
     text-align: center;
     position: relative;
-    bottom: 947px;
+    bottom: 980px;
     font-size: 26px;
 }
 
@@ -70,8 +72,8 @@ body{
     height: 40px;
     background-color: white;
     position: relative;
-    bottom: 1580px;
-    left: 1560px;
+    bottom: 1670px;
+    left: 1720px;
     border-radius: 20px;
     text-align: center;
     font-family: Ember2;
@@ -83,12 +85,12 @@ body{
 }
 
 .rect3{
-    width: 358px;
-    height: 64px;
+    width: 470px;
+    height: 80px;
     background-color: white;
     position: relative;
-    bottom: 990px;
-    left: 710px;
+    bottom: 1040px;
+    left: 700px;
     border-radius: 20px;
     text-align: center;
     font-family: Ember2;
@@ -96,15 +98,15 @@ body{
 
 .rect3 .sign{
     position: relative;
-    top: 12px;
-    font-size: 30px
+    top: 13px;
+    font-size: 40px
 }
 
 .rect4 .img2{
     width: 1600px;
     height: 560px;
     position: relative;
-    left: 70px;
+    left: 179px;
     bottom: 720px;
 }
 
@@ -112,7 +114,7 @@ body{
     width: 1600px;
     height: 560px;
     position: relative;
-    left: 70px;
+    left: 177px;
     bottom: 680px;
 }
 
@@ -123,6 +125,7 @@ body{
     text-align: center;
     position: relative;
     bottom: 1260px;
+    left: 47px;
     font-size: 55px;
 }
 
@@ -131,7 +134,7 @@ body{
     height: 260px;
     position: relative;
     bottom: 1280px;
-    left: 400px;
+    left: 580px;
 }
 
 .rect5 .img5{
@@ -139,7 +142,7 @@ body{
     height: 260px;
     position: relative;
     bottom: 1280px;
-    left: 410px;
+    left: 590px;
 }
 
 .rect5 .img6{
@@ -147,7 +150,7 @@ body{
     height: 260px;
     position: relative;
     bottom: 1280px;
-    left: 420px;
+    left: 600px;
 }
 
 .rect5 .img7{
@@ -155,7 +158,7 @@ body{
     height: 260px;
     position: relative;
     bottom: 1280px;
-    left: 430px;
+    left: 610px;
 }
 
 .rect5 .img8{
@@ -163,7 +166,7 @@ body{
     height: 260px;
     position: relative;
     bottom: 1280px;
-    left: 440px;
+    left: 620px;
 }
 
 .rect5 .text4{
@@ -174,13 +177,14 @@ body{
     position: relative;
     bottom: 1300px;
     font-size: 40px;
+    left: 75px;
 }
 
 .rect6 .img9{
     width: 1600px;
     height: 500px;
     position: relative;
-    left: 70px;
+    left: 175px;
     bottom: 1260px;
 }
 
@@ -192,6 +196,7 @@ body{
     position: relative;
     bottom: 1780px;
     font-size: 60px;
+    left: 50px;
 }
 
 .rect6 .img10{
@@ -199,7 +204,7 @@ body{
     height: 169px;
     position: relative;
     bottom: 1800px;
-    left: 790px;
+    left: 885px;
 }
 
 .rect6 .text6{
@@ -210,6 +215,7 @@ body{
     position: relative;
     bottom: 1820px;
     font-size: 40px;
+    left: 45px;
 }
 
 .rect7 .text7{
