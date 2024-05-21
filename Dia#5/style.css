@@ -1,15 +1,369 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: cascadia;
+    src: url(Cascadia/Cascadia.ttf);
+}
+
+html{
+    height: 100%;
+}
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: cascadia;
 }
 
 .cont{
-    width: 1920px;
-    height: 4030px;
+    width: 1080px;
+    height: 1920px;
     margin: auto;
-    bottom: 10px;
-    background-color: black;
+    background-color: #1e1d2b;
+}
+
+.cont2 .rect{
+    color: white;
+    display: flex;
+}
+
+.cont2 .rect a{
+    margin-left: 25px ;
     position: relative;
-    overflow: hidden;
+    left: 580px;
+    top: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.cont2 .rect h1{
+    position: relative;
+    left: 80px;
+    font-size: 23px;
+    top: 10px;
+    color: #e1652a;
+}
+
+.cont2 .rect2 h1{
+    color: #e1652a;
+    font-size: 70px;
+    position: relative;
+    left: 140px;
+    top: 10px;
+}
+
+.cont2 .rect2 .f1{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+    font-weight: bold;
+}
+
+.cont2 .rect2 .m1{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    bottom: 60px;
+    font-weight: bold;
+}
+
+.cont2 button{
+    background-color: #ff702a;
+    color: white;
+    position: relative;
+    left: 140px;
+    bottom: 290px;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.cont2 .rect2 .home{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 560px;
+    bottom: 245px;
+}
+
+.cont3 .rect3 .a1{
+    color: #ff702a;
+    position: relative;
+    left: 610px;
+    bottom: 180px;
+    font-size: 18px;
+}
+
+.cont3 .rect3 h1{
+    color: white;
+    position: relative;
+    left: 610px;
+    bottom: 205px;
+    font-size: 38px;
+}
+
+.cont3 .rect3 .text{
+    color: white;
+    position: relative;
+    left: 610px;
+    bottom: 215px;
+    font-size: 17px;
+}
+
+.cont3 button{
+    background-color: #ff702a;
+    color: white;
+    position: relative;
+    left: 610px;
+    bottom: 470px;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.cont3 .rect3 .about{
+    width: 280px;
+    height: 280px;
+    position: relative;
+    bottom: 440px;
+}
+
+.cont4 .rect4 .f2{
+    color: #ff702a;
+    position: relative;
+    bottom: 400px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cont4 .rect4 h1{
+    color: white;
+    position: relative;
+    text-align: center;
+    bottom: 420px;
+    font-size: 38px;
+}
+
+.cont4 .rect5{
+    width: 250px;
+    height: 250px;
+    background-color: #ffefe8;
+    position: relative;
+    left: 120px;
+    bottom: 390px;
+}
+
+.cont4 .rect5 img{
+    width: 130px;
+    position: relative;
+    left: 59px;
+    top: 10px;
+}
+
+.cont4 .rect5 .c2{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+}
+
+.cont4 .rect5 .t{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.cont4 .rect5 .p{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 40px;
+    color: #ff8e57;
+}
+
+.cont4 .rect6{
+    width: 250px;
+    height: 250px;
+    background-color: #ffefe8;
+    position: relative;
+    left: 400px;
+    bottom: 640px;
+}
+
+.cont4 .rect6 img{
+    width: 130px;
+    position: relative;
+    left: 59px;
+    top: 10px;
+}
+
+.cont4 .rect6 .e{
+    text-align: center;
+    font-size: 21px;
+    position: relative;
+    bottom: 10px;
+}
+
+.cont4 .rect6 .t2{
+    text-align: center;
+    font-size: 19px;
+    position: relative;
+    bottom: 20px;
+}
+
+.cont4 .rect6 .pr{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 28px;
+    color: #ff8e57;
+}
+
+.cont4 .rect7{
+    width: 250px;
+    height: 250px;
+    background-color: #ffefe8;
+    position: relative;
+    left: 680px;
+    bottom: 890px;
+}
+
+.cont4 .rect7 img{
+    width: 130px;
+    position: relative;
+    left: 59px;
+    top: 10px;
+}
+
+.cont4 .rect7 .c3{
+    text-align: center;
+    font-size: 21px;
+    position: relative;
+    bottom: 10px;
+}
+
+.cont4 .rect7 .t3{
+    text-align: center;
+    font-size: 19px;
+    position: relative;
+    bottom: 20px;
+}
+
+.cont4 .rect7 .pre{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 28px;
+    color: #ff8e57;
+}
+
+.cont5 .rect8 .ser{
+    color: #ff702a;
+    position: relative;
+    bottom: 800px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cont5 .rect8 h1{
+    color: white;
+    position: relative;
+    text-align: center;
+    bottom: 810px;
+    font-size: 38px;
+}
+
+.cont5 .rect9{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 65px;
+    bottom: 785px;
+
+}
+
+.cont5 .rect9 img{
+    width: 130px;
+    position: relative;
+    left: 87px;
+    top: 10px;
+}
+
+.cont5 .rect9 .o{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+    color: #fd6f2a;
+}
+
+.cont5 .rect9 .text2{
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+
+.cont5 .rect10{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 390px;
+    bottom: 1035px;
+}
+
+.cont5 .rect10 img{
+    width: 130px;
+    position: relative;
+    left: 87px;
+    top: 10px;
+}
+
+.cont5 .rect10 .sh{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+    color: #fd6f2a;
+}
+
+.cont5 .rect10 .text3{
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+
+.cont5 .rect11{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 715px;
+    bottom: 1284px;
+}
+
+.cont5 .rect11 img{
+    width: 130px;
+    position: relative;
+    left: 87px;
+    top: 10px;
+}
+
+.cont5 .rect11 .d{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+    color: #fd6f2a;
+}
+
+.cont5 .rect11 .text4{
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    bottom: 20px;
+    color: white;
 }
