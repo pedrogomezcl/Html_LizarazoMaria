@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image:url(Imagenes/pexels-clive-kim-4150032.png);
+    background-repeat: no-repeat;
+}
+
+.contenedor{
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+}
+
+.b-sup{
+    width: 1920px;
+    height: 180px;
+    background-color: #3669c9;
+    position: relative;
+    display: flex;
+    position: fixed;
+}
