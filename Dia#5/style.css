@@ -9,11 +9,12 @@ html{
 
 body{
     font-family: cascadia;
+    background-color: #1e1d2b;
 }
 
 .cont{
     width: 1080px;
-    height: 1920px;
+    height: 2450px;
     margin: auto;
     background-color: #1e1d2b;
 }
@@ -145,6 +146,7 @@ body{
 }
 
 .cont4 .rect5{
+    border: 5px double black;
     width: 250px;
     height: 250px;
     background-color: #ffefe8;
@@ -183,12 +185,13 @@ body{
 }
 
 .cont4 .rect6{
+    border: 5px double black;
     width: 250px;
     height: 250px;
     background-color: #ffefe8;
     position: relative;
     left: 400px;
-    bottom: 640px;
+    bottom: 650px;
 }
 
 .cont4 .rect6 img{
@@ -221,12 +224,13 @@ body{
 }
 
 .cont4 .rect7{
+    border: 5px double black;
     width: 250px;
     height: 250px;
     background-color: #ffefe8;
     position: relative;
     left: 680px;
-    bottom: 890px;
+    bottom: 910px;
 }
 
 .cont4 .rect7 img{
@@ -366,4 +370,149 @@ body{
     position: relative;
     bottom: 20px;
     color: white;
+}
+
+.cont6{
+    border: 5px double black;
+    width: 970px;
+    height: 250px;
+    background-color: #ffefe8;
+    position: relative;
+    left: 50px;
+    bottom: 1200px;
+}
+
+.cont6 p{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+
+.cont6 button{
+    background-color: #ff702a;
+    color: white;
+    position: relative;
+    left: 410px;
+    top: 25px;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+}
+
+.cont7{
+    color: white;
+}
+
+.men{
+    position: relative;
+    left: 100px;
+    bottom: 1100px;
+}
+
+.cont7 .men2{
+    color: white;
+    position: relative;
+    font-size: 25px;
+}
+
+.cont7 .men a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    position: relative;
+    bottom: 75px;
+}
+
+.cont7 .sep{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 65px;
+    color: #e0652a;
+    font-size: 35px;
+}
+
+.our{
+    position: relative;
+    left: 310px;
+    bottom: 1412px;
+}
+
+.our .our2{
+    position: relative;
+    font-size: 25px;
+}
+
+.our .otro{
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    position: relative;
+    bottom: 77px;
+    line-height: 16px;
+}
+
+.cont7 .sep2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 65px;
+    color: #e0652a;
+    font-size: 35px;
+}
+
+.inf{
+    position: relative;
+    left: 555px;
+    bottom: 1730px;
+}
+
+.inf .info{
+    position: relative;
+    font-size: 25px;
+}
+
+.inf .oto{
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    position: relative;
+    bottom: 77px;
+    line-height: 16px;
+}
+
+.cont7 .sep3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 65px;
+    color: #e0652a;
+    font-size: 35px;
+}
+
+.conta{
+    position: relative;
+    left: 815px;
+    bottom: 2010px;
+}
+
+.conta .contac{
+    position: relative;
+    font-size: 25px;
+}
+
+.conta .sep4{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 65px;
+    color: #e0652a;
+    font-size: 35px;
+}
+
+.conta i{
+    position: relative;
+    bottom: 80px;
+    width: 20px;
+    height: 30px;
 }
