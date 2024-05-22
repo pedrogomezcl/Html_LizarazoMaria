@@ -1,36 +1,54 @@
-@media (min-width: 1920px){
-    .header{}
+@font-face {
+    font-family: mlight;
+    src: url(Myriad/MyriadPro-Light.otf);
 }
 
-body{
-    background-image:url(Imagenes/pexels-clive-kim-4150032.png);
-    background-repeat: no-repeat;
-}
-
-header{
-    display: flex;
-    background-color: #3669c9;
-    justify-content: space-between;
-    height: 174px;
-    color: white;
-}
-
-header .button{
-    width: 20px;
-    height: 20px;
+@font-face {
+    font-family: mregular;
+    src: url(Myriad/MYRIADPRO-REGULAR.OTF);
 }
 
 .contenedor{
+    background-image:url(Imagenes/pexels-clive-kim-4150032.png);
+    background-repeat: no-repeat;
     width: 1920px;
     height: 1080px;
     margin: auto;
 }
 
 .b-sup{
+    position: fixed;
+    margin-top: -8px;
     width: 1920px;
     height: 180px;
     background-color: #3669c9;
-    position: relative;
     display: flex;
-    position: fixed;
+    justify-content: space-evenly;
+}
+
+.b-sup button{
+    position: relative;
+    left: 50px;
+    width: 249px;
+    height: 60px;
+    top: 60px;
+    border-radius: 20px;
+    font-family: mregular;
+    font-size: 30px;
+}
+
+.b-sup a{
+    font-family: mregular;
+    font-size: 34px;
+    position: relative;
+    top: 67px;
+    color: white;
+    text-decoration: none;
+}
+
+.b-sup img{
+    width: 350px;
+    height: 70px;
+    position: relative;
+    top: 50px;
 }
