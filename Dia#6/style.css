@@ -1,10 +1,23 @@
-html{
-    height: 100%;
+@media (min-width: 1920px){
+    .header{}
 }
 
 body{
     background-image:url(Imagenes/pexels-clive-kim-4150032.png);
     background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    background-color: #3669c9;
+    justify-content: space-between;
+    height: 174px;
+    color: white;
+}
+
+header .button{
+    width: 20px;
+    height: 20px;
 }
 
 .contenedor{
