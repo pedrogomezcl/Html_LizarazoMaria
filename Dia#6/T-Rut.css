@@ -93,26 +93,31 @@ body{
     font-size: 21px;
     height: 30px;
 }
+
 .b-blanca input{
     width: 792px;
     height: 50px;
     font-size: 25px
 }
+
 .b-blanca label,input{
     position: relative;
     left: 397px;
     bottom: 10px;
 }
+
 .b-blanca .l{
     position: absolute;
     top: 470px;
 }
+
 .b-blanca .text{
     font-size: 11px;
     position: relative;
     top: 110px;
     left: 520px;
 }
+
 .b-blanca button{
     background-color: #3669c9;
     color: white;
@@ -126,87 +131,12 @@ body{
     left: 715px;
 }
 
-.b-blanca2 .text2{
-    position: relative;
-    text-align: center;
-    font-size: 35px;
-    bottom: 320px;
-}
-
-.t-rut img{
-    position: relative;
-    left: 700px;
-    bottom: 315px;
-}
-
-.t-rut h1{
-    position: relative;
-    bottom: 320px;
-    left: 650px;
-}
-
-.t-rut p{
-    text-align: center;
-    position: relative;
-    bottom: 330px;
-    right: 230px;
-    font-family: mlight;
-    font-size: 17px;
-}
-
-.t-rut a{
-    text-decoration: none;
-    color: white;
-    background-color: #3669c9;
-    border-radius: 20px;
-    height: 56px;
-    width: 220px;
-    padding: 15px 50px;
-    position: relative;
-    bottom: 300px;
-    left: 656px; 
-}
-
-.t-firma img{
-    position: relative;
-    left: 1200px;
-    bottom: 585px;
-}
-
-.t-firma h1{
-    position: relative;
-    bottom: 590px;
-    left: 1080px;
-}
-
-.t-firma p{
-    text-align: center;
-    position: relative;
-    bottom: 600px;
-    left: 295px;
-    font-family: mlight;
-    font-size: 17px;
-}
-
-.t-firma a{
-    text-decoration: none;
-    color: white;
-    background-color: #3669c9;
-    border-radius: 20px;
-    height: 56px;
-    width: 220px;
-    padding: 15px 50px;
-    position: relative;
-    left: 1180px;
-    bottom: 580px;
-}
-
 .b-inf{
     position: relative;
     width: 1920px;
     height: 170px;
     background-color: #3669c9;
-    bottom: 409px;
+    bottom: 250px;
 }
 
 .b-inf{
