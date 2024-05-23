@@ -57,7 +57,7 @@ body{
 }
 
 .b-blanca{
-    width: 1545px;
+    width: 1445px;
     height: 1160px;
     background-color: white;
     border-radius: 100px;
@@ -68,67 +68,73 @@ body{
 
 .b-blanca img{
     position: relative;
-    left: 600px;
-    top: 30px;
+    left: 595px;
+    top: 40px;
 }
 
 .b-blanca .b{
     text-align: center;
     font-size: 26px;
     position: relative;
-    top: 25px;
+    top: 45px;
 }
 
 .b-blanca .m{
     width: 240px;
     height: 77px;
     position: relative;
-    left: 640px;
-    top: 15px;
+    left: 630px;
+    top: 55px;
 }
 
 .b-blanca label{
     display: block;
     margin-top: 20px;
     font-size: 21px;
-    height: 30px;
+    height: 35px;
+}
+
+.b-blanca .dia{
+    position: relative;
+    bottom: 1000px;
 }
 
 .b-blanca input{
     width: 792px;
-    height: 50px;
+    height: 70px;
     font-size: 25px
 }
 
 .b-blanca label,input{
     position: relative;
-    left: 397px;
-    bottom: 10px;
+    left: 310px;
+    top: 50px;
 }
 
 .b-blanca .l{
     position: absolute;
-    top: 470px;
+    top: 740px;
 }
 
 .b-blanca .text{
     font-size: 11px;
     position: relative;
-    top: 110px;
-    left: 520px;
+    top: 230px;
+    color: gray;
+    text-align: center;
+    left: 20px;
 }
 
-.b-blanca button{
+.b-blanca a{
     background-color: #3669c9;
     color: white;
     border-radius: 20px;
-    height: 42px;
-    width: 165px;
     font-size: 15px;
-    border: none;
+    text-decoration: none;
     position: relative;
-    top: 120px;
-    left: 715px;
+    top: 300px;
+    left: 670px;
+    padding: 25px 90px;
 }
 
 .b-inf{
@@ -136,7 +142,7 @@ body{
     width: 1920px;
     height: 170px;
     background-color: #3669c9;
-    bottom: 250px;
+    top: 249px;
 }
 
 .b-inf{
