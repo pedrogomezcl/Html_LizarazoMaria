@@ -1,0 +1,66 @@
+body{
+    margin: auto;
+}
+
+.caja{
+    display: grid;
+    background-color: black;
+    border-radius: 15px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 25.7vw);
+    margin-bottom: 1%;
+}
+
+.caja div{
+    margin: 3%;
+}
+
+.cajita{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.cajita2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.cajita3{
+    grid-row: 1/3;
+    grid-column: 3/2;
+}
+
+.cajita4{
+    grid-row: 3/5;
+    grid-column: 3/-3;
+} 
+
+.caja2{
+    display: grid;
+    background-color: black;
+    border-radius: 15px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 26.7vw);
+}
+
+.caja2 div{
+    margin: 3%;
+}
+
+.cajita5{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-color: aquamarine;
+}
+
+.cajita6{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: beige;
+}
+
+.cajita7{
+    grid-row: 1/3;
+    grid-column: 3/2;
+    background-color: blueviolet;
+}
